@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+    color: #666;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+a.text-primary {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a.text-primary:hover {
+    text-decoration: underline;
+}
+
+button.btn-light {
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+button.btn-light:hover {
+    background-color: #f1f1f1;
+}
+
+button.btn-light i {
+    margin-right: 10px;
+}

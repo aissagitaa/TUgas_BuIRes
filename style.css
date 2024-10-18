@@ -1,3 +1,14 @@
+
+.navbar{
+    background-color: #E2F1E7;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
 .container-fluid {
     display: flex;
     justify-content: space-between;
@@ -8,50 +19,65 @@ nav .img-acc {
     transform: translateX(250px);
 }
 
-nav .img-acc img{
+nav .img-acc img {
     width: 10%;
 }
 
-style
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        .promo-section {
-            background-color: #e6ccf2;
-            padding: 30px;
-            border-radius: 10px;
-            margin: 20px 0;
-            position: relative;
-        }
 
-        .promo-text h3 {
-            color: #333;
-            font-weight: bold;
-            font-size: 2rem;
-        }
 
-        .promo-text p {
-            color: #333;
-            font-size: 1.2rem;
-        }
+.promo-section {
+    background-color: #e6ccf2;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+    position: relative;
+}
 
-        .promo-text span {
-            font-weight: bold;
-            font-size: 1.5rem;
-            color: #000;
-        }
+.promo-text h3 {
+    color: #333;
+    font-weight: bold;
+    font-size: 2rem;
+}
 
-        .promo-image img {
-            width: 100px;
-            border: 2px solid #000;
-            border-radius: 10px;
-        }
+.promo-text p {
+    color: #333;
+    font-size: 1.2rem;
+}
 
-        .carousel-control-next,
-        .carousel-control-prev {
-            filter: invert(1);
-        }
+.promo-text span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #000;
+}
 
- 
+.promo-image img {
+    width: 100px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(1);
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    content: "";
+    background-color: black;
+    width: 0%;
+    height: 4px;
+    transition: all 0.5s;
+}
+
+.navbar-nav .nav-item:hover::after {
+    width: 100%;
+}

@@ -1,6 +1,17 @@
+*{
+    overflow-y: hidden;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
+}
+.navbar{
+    background-color: #E2F1E7;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
@@ -27,8 +38,8 @@ a.text-primary:hover {
     text-decoration: underline;
 }
 
-button.btn-light {
-    border: 1px solid #ccc;
+button {
+    border: 1px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,3 +54,4 @@ button.btn-light:hover {
 button.btn-light i {
     margin-right: 10px;
 }
+
